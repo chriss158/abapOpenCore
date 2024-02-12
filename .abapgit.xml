@@ -2,9 +2,17 @@
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
  <asx:values>
   <DATA>
+   <NAME>abapOpenCore</NAME>
    <MASTER_LANGUAGE>D</MASTER_LANGUAGE>
    <STARTING_FOLDER>/src/</STARTING_FOLDER>
    <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+   <IGNORE>
+    <item>/LICENSE</item>
+    <item>/README.md</item>
+    <item>/package.json</item>
+    <item>/abaplint.json</item>
+    <item>/.gitignore</item>
+   </IGNORE>
   </DATA>
  </asx:values>
 </asx:abap>
